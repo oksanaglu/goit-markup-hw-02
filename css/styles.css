@@ -1,0 +1,41 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет основного фона белый #FFFFFF */
+/* акцент 2196F3 */
+/* вторичный цвет фона 2F303A */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color)
+}
+
+ul {list-style: none;}
+
+/* Шапка сайта Site nav */
+
+.logo {
+    color: var(--accent-color);
+}
+.site-nav .link {
+    color:var(--primary-text-color)
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Слайдер slider */
+
+
+/* Преимущества feature-list*/
+
+.feature-list .title {
+    columns: var(--title-text-color)
+;
+}
