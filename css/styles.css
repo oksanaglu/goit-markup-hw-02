@@ -38,6 +38,10 @@ ul {list-style: none;}
     line-height: 1.2x;
     text-decoration: none;
 }
+
+.logo .second {
+    color: var(--primary-text-color);
+}
 .site-nav .link {
     color:var(--primary-text-color);
     font-weight: 500;
@@ -78,11 +82,12 @@ ul {list-style: none;}
 }
 
 .hero .title {
+    text-transform: uppercase;
     font-weight: 900;
-        font-size: 44px;
-        line-height: 1.37;
-        text-align: center;
-        letter-spacing: 0.06em;
+    font-size: 44px;
+    line-height: 1.37;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
  /* button */
@@ -102,6 +107,7 @@ ul {list-style: none;}
 
 .feature-list .title {
     color: var(--title-text---color);
+    text-transform: uppercase;
 
     font-weight: 700;
     font-size: 14px;
@@ -150,6 +156,10 @@ ul {list-style: none;}
 
 /* footet */
 
+.logo .secondary {
+    color: var(--primary-white-color);
+}
+
 .footer {
     background-color: var(--secondary-bg-gray-color);
 }
@@ -163,6 +173,7 @@ ul {list-style: none;}
     font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
+    font-style: normal;
 }
 
 .contact .link:hover,
@@ -170,13 +181,26 @@ ul {list-style: none;}
     color: var(--accent-color);
 }
 
+.contact .info {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.72;
+    font-style: normal;
+}
 
+.contact .info:hover,
+.contact .info:focus {
+    color: var(--accent-color);
+}
 
 /* Стили для Портфолио */
 
- .button.secondary {
+.button.secondary {
      color: var(--primary-text-color);
      background-color: var(--primary-white-color);
+     font-family: Roboto, sans-serif;
      cursor: pointer;
      font-weight: 500;
      font-size: 16px;
